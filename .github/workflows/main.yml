@@ -9,6 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: docker run -it -v $PWD:/e2e -w /e2e cypress/included:4.0.1
+    - name: Install cypress
+      run: npm install cypress --save-dev
+    - name: Run all tests
+      run: npx cypress run
 
