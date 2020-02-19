@@ -1,4 +1,5 @@
 # cypress-test-tiny
+![CI](https://github.com/jjnyn/cypress-test-tiny/workflows/CI/badge.svg)
 
 > Tiny Cypress E2E test case
 
